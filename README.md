@@ -1,7 +1,7 @@
 # Chroma-Key
  <details>
   
-### 各ディレクトリの説明
+<summary>### 各ディレクトリの説明<\summary>
 build：全プログラムの実行型を格納するディレクトリ
 
 image：処理対象の画像を格納するディレクトリ
