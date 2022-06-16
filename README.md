@@ -1,7 +1,8 @@
 # Chroma-Key
- <details>
-<summary>### 各ディレクトリの説明<\summary>
- 
+
+<details>
+ <summary>各ディレクトリの説明</summary>
+
 build：全プログラムの実行型を格納するディレクトリ
 
 image：処理対象の画像を格納するディレクトリ
@@ -9,9 +10,10 @@ image：処理対象の画像を格納するディレクトリ
 result：実験結果を格納するディレクトリ
 
 src：プログラムを格納するディレクトリ
-<\details>
+</details>
 
-### 作成したプログラムの説明
+<details>
+ <summary>作成したプログラムの説明</summary>
 【Chroma-Key.cpp】
 
 入力：rila.bmp  galaxy.jpg
@@ -24,14 +26,18 @@ src：プログラムを格納するディレクトリ
 【compile.sh】
 
 ターミナル上で「bash src/compile.sh」と打つと「Chroma-Key.cpp」が実行される。
-
+</details>
 
 # Data-Augmentation
 画像処理をおこなうプログラムです
-### 各ディレクトリの説明
-※「Chroma-Key」を参照
 
-### 作成したプログラムの説明
+<details>
+ <summary>各ディレクトリの説明</summary>
+※「Chroma-Key」を参照
+</details>
+
+<details>
+ <summary>作成したプログラムの説明</summary>
 【Blur.cpp】
 
 入力：img000.bmp
@@ -80,20 +86,52 @@ src：プログラムを格納するディレクトリ
 
 ターミナル上で「bash src/__compile.sh <コマンドライン引数>」を実行することで
 上記のいずれかのプログラムを実行できる。
-
+</details>
 
 # Labeling
 画像中の対象物をラベリングするプログラムです。
-### 各ディレクトリの説明
-※「Chroma-Key」を参照
+<details>
+ <summary>各ディレクトリの説明</summary>
+ ※「Chroma-Key」を参照
+</details>
+  
+<details> 
+ <summary>作成したプログラムの説明</summary>
+ 
+【labeling.cpp】
 
-### 作成したプログラムの説明
+入力：spiral-003.bmp
 
+出力：「img000.bmp」をラベリングした画像
+
+内容：入力した画像のラベリングをおこなうプログラムです。
+ 
+【compile.sh】
+ 
+ ターミナル上で「bash src/compile.sh」と打つと「labeling.cpp」が実行される。
+</details>
 
 
 # Pseudo-Colorimage
 疑似カラー画像を作成するプログラムです
-### 各ディレクトリの説明
-※「Chroma-Key」を参照
 
-### 作成したプログラムの説明
+<details>
+ <summary>各ディレクトリの説明</summary>
+※「Chroma-Key」を参照
+</details>
+
+<details>
+ <summary>作成したプログラムの説明</summary>
+ 
+ 【pcolor.cpp】
+
+入力：Lenna256x256.bmp
+
+出力：「Lenna256x256.bmp」を擬似カラー化した画像
+
+内容：入力した画像を擬似カラー化するプログラムです。
+ 
+【compile.sh】
+ 
+ ターミナル上で「bash src/compile.sh」と打つと「pcolor.cpp」が実行される。
+</details>
