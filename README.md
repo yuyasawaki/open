@@ -9,7 +9,7 @@ result：実験結果を格納するディレクトリ
 src：プログラムを格納するディレクトリ
 
 ### 作成したプログラムの説明
-Chroma-Key.cpp
+【Chroma-Key.cpp】
 
 入力：rila.bmp  galaxy.jpg
 
@@ -18,7 +18,7 @@ Chroma-Key.cpp
 内容：クロマキー合成をおこなうプログラム
 
 
-compile.sh
+【compile.sh】
 
 ターミナル上で「bash src/compile.sh」と打つと「Chroma-Key.cpp」が実行される。
 
