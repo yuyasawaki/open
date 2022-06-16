@@ -1,9 +1,6 @@
 # Chroma-Key
  <details>
-  
 <summary>各ディレクトリの説明<\summary>
- 
- <\details>
  
 build：全プログラムの実行型を格納するディレクトリ
 
@@ -12,6 +9,7 @@ image：処理対象の画像を格納するディレクトリ
 result：実験結果を格納するディレクトリ
 
 src：プログラムを格納するディレクトリ
+ <\details>
 
 ### 作成したプログラムの説明
 【Chroma-Key.cpp】
