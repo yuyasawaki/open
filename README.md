@@ -1,8 +1,12 @@
 # Chroma-Key
-sawaki
+クロマキー合成をおこなうプログラムです。
+##各ディレクトリの説明
 # Data-Augmentation
-sawaki
+画像処理をおこなうプログラムです
+##各ディレクトリの説明
 # Labeling
-sawaki
+画像中の対象物をラベリングするプログラムです。
+##各ディレクトリの説明
 # Pseudo-Colorimage
-sawaki
+疑似カラー画像を作成するプログラムです
+##各ディレクトリの説明
