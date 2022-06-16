@@ -137,4 +137,6 @@ src：プログラムを格納するディレクトリ
 </details>
  
  # 色認識を用いた神経衰弱ゲームの開発
-<https://www.youtube.com/watch?v=aDYHnTLiALw>
+ 色認識を用いて指先のマーカーの座標を読み取り，ディスプレイ上で神経衰弱ができるシステムを開発しました．
+ マーカの読み取り，神経衰弱ゲームの作成はすべてC言語でおこないました。
+ https://www.youtube.com/watch?v=aDYHnTLiALw>
