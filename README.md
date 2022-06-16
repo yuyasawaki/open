@@ -136,5 +136,5 @@ src：プログラムを格納するディレクトリ
  ターミナル上で「bash src/compile.sh」と打つと「pcolor.cpp」が実行される。
 </details>
  
- # aaa
- <https://codechord.com/2012/01/readme-markdown/>
+ # 色認識を用いた神経衰弱ゲームの開発
+<https://www.youtube.com/watch?v=aDYHnTLiALw>
