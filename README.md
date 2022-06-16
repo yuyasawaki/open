@@ -1,11 +1,9 @@
 # Chroma-Key
  <details>
   
-<summary>
+<summary>各ディレクトリの説明<\summary>
  
- ### 各ディレクトリの説明
- 
-<\summary>
+ <\details>
  
 build：全プログラムの実行型を格納するディレクトリ
 
@@ -28,7 +26,7 @@ src：プログラムを格納するディレクトリ
 【compile.sh】
 
 ターミナル上で「bash src/compile.sh」と打つと「Chroma-Key.cpp」が実行される。
- <\details>
+
 
 # Data-Augmentation
 画像処理をおこなうプログラムです
